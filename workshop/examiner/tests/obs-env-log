@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -euo pipefail
+
+grep -q -w "HOSTNAME=myenv" ~/myenv.log
+! kubectl get pod myenv
