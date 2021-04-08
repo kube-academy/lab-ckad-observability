@@ -1,5 +1,5 @@
 
-1. Create a Pod named `httptest` with image [`mccutchen/go-httpbin`](https://github.com/mccutchen/go-httpbin) and a readiness probe that checks the http endpoint of the container at path `/status/200` on port `8080`.
+1. Create a Pod named ``httptest``{{copy}} with image [``mccutchen/go-httpbin``{{copy}}](https://github.com/mccutchen/go-httpbin) and a readiness probe that checks the http endpoint of the container at path ``/status/200``{{copy}} on port ``8080``{{copy}}.
 
 ```examiner:execute-test
 name: obs-httpbin-readiness-probe

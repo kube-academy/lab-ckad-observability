@@ -1,5 +1,5 @@
 
-1. Create a Pod named `myredis` with the image `bitnami/redis`. Define a liveness probe and readiness probe with an initial delay of 5 seconds and the command `redis-cli PING`.
+1. Create a Pod named ``myredis``{{copy}} with the image ``bitnami/redis``{{copy}}. Define a liveness probe and readiness probe with an initial delay of 5 seconds and the command ``redis-cli PING``{{copy}}.
 
 ```examiner:execute-test
 name: obs-readiness-liveness-pod
